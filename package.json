@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://github.com/UmaSahni/project_data#readme",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -17,10 +19,13 @@
   "bugs": {
     "url": "https://github.com/UmaSahni/project_data/issues"
   },
-  "homepage": "https://github.com/UmaSahni/project_data#readme",
   "dependencies": {
+    "cli": "^1.0.1",
     "cors": "^2.8.5",
+    "gh-pages": "^6.2.0",
     "json-serve": "^0.1.0",
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.1",
+    "netlify": "^13.1.21",
+    "vercel": "^37.11.0"
   }
 }
