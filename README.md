@@ -1,45 +1,22 @@
-## Deploy JSON Server to Vercel
+# JSON_Server_Deployment
 
-A template to deploy [JSON Server](https://github.com/typicode/json-server) to [Vercel](https://vercel.com), allow you to run fake REST API online!
 
-Demo from this repository: 
 
-1. https://json-server-in.vercel.app
-2. https://json-server-in.vercel.app/api/posts
 
-![Powered by Vercel](https://images.ctfassets.net/e5382hct74si/78Olo8EZRdUlcDUFQvnzG7/fa4cdb6dc04c40fceac194134788a0e2/1618983297-powered-by-vercel.svg)
+By utilizing the provided template, you will be able to create your JSON server repository, which can be deployed on render.com
+--------------
 
-### How to use
 
-1. Click "**Use this template**" or clone this repository.
-2. Update or use the default [`db.json`](./db.json) in the repository.
-3. Sign Up or login into [Vercel](https://vercel.com).
-4. From the Vercel dashboard, click "**+ New Project**" then "**Import**" your repository.
-5. In the "**Configure Project**" screen, leave everything default and click "**Deploy**".
-6. Wait until deployment is done, and your own JSON server is ready to serve!
+[![Nice UI](https://img.youtube.com/vi/W9sbA1a2-Ag/0.jpg)](https://www.youtube.com/watch?v=W9sbA1a2-Ag)
 
-## Default `db.json`
 
-```json
-{
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
-}
-```
+In this video, I have covered three simple steps to quickly deploy your **JSON Server** on render.com.
 
-## Enable write operations
+Three Simple Steps:
 
-By default, only GET operation is allowed, thanks to the contribution by [@VicAv99](https://www.github.com/VicAv99) at [#6](https://github.com/kitloong/json-server-vercel/issues/6), we can now enable write operations as well.
+1. Create a repository from the template.
+2. Add your own data.
+3. Deploy it.
 
-You can find the example code in [`api/server.js`](./api/server.js).
+Believe me, this is the **easiest way** to deploy your JSON server on render.com. Deploy your db.json file without writing a **single line of code**.
 
-## Reference
-
-1. https://github.com/typicode/json-server
-2. https://vercel.com
-3. https://shadowsmith.com/how-to-deploy-an-express-api-to-vercel
