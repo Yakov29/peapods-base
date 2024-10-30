@@ -3,5 +3,11 @@
     "api/server.js": {
       "memory": 1024
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/*",
+      "destination": "api/server.js"
+    }
+  ]
 }
